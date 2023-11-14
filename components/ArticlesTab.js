@@ -516,7 +516,7 @@ export default function ArticlesTab() {
                     className='border-secondary/80 border dark:border-purple-400 rounded-lg max-w-sm mx-auto'
                   >
                     <Link href={`/articles${item.itemLink}`}>
-                      <Image src={item.imgSrc} priority sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw' className='rounded-t-lg max-h-48 h-48' />
+                      <Image src={item.imgSrc} priority sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw' className='rounded-t-lg max-h-48 h-48' alt='' />
                     </Link>
                     <div className='pt-6 xl:pt-8 pb-8 px-6 xl:px-8 xs:px-6 text-dark dark:text-light'>
                       <div className='flex justify-between items-center'>
