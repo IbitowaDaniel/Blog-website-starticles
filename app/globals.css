@@ -1,27 +1,36 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+.glare {
+  background-color: transparent;
+  background-image: linear-gradient(270deg,hsla(0,0%,100%,.52) 34%,transparent 37%,transparent 77%,hsla(0,0%,100%,.64) 80%);
+  transform: skew(20deg,0deg);
+  animation: linear infinite;
+  animation-duration: 3s;
+  animation-name: loadingAnim;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@keyframes loadingAnim {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: calc(100% - 40px);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+.headingFontSize {
+ @apply text-5xl xl:text-4xl lg:text-3xl md:text-2xl xs:text-xl
 }
+
+.categoryText {
+ @apply font-semibold text-xl lg:text-lg xs:text-base border-2 mr-6 mb-12 rounded-lg px-12 py-20 lg:py-16 xs:py-12 border-dashed bg-purple-900/10 border-primary dark:border-purple-400;
+}
+
+ 
