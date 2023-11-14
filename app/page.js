@@ -23,7 +23,7 @@ export default function Home() {
         />
 
         <div className="w-full max-w-7xl mx-auto min-h-screen px-28 lg:px-16 md:px-12 xs:px-6 pt-20 pb-24">
-          <h1 className="font-bold text-dark dark:text-light text-[5.4rem] leading-[5rem] max-w-[80vw] lg:max-w-[75vw] md:text-center md:max-w-full mb-10 xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl sm:mb-8 drop-shadow-[0_8px_0_rgb(195,165,245)] xl:drop-shadow-[0_6px_0_rgb(195,165,245)] md:drop-shadow-[0_4px_0_rgb(195,165,245)] dark:drop-shadow-[0_8px_0_rgb(105,45,202)] xl:dark:drop-shadow-[0_6px_0_rgb(105,45,202)] md:dark:drop-shadow-[0_4px_0_rgb(105,45,202)]">
+          <h1 className="font-bold text-dark dark:text-light text-[5.4rem] leading-[5rem] max-w-[80vw] lg:max-w-[75vw] md:text-center md:max-w-full mb-10 xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl text-2xl sm:mb-8 drop-shadow-[0_8px_0_rgb(195,165,245)] xl:drop-shadow-[0_6px_0_rgb(195,165,245)] md:drop-shadow-[0_4px_0_rgb(195,165,245)] dark:drop-shadow-[0_8px_0_rgb(105,45,202)] xl:dark:drop-shadow-[0_6px_0_rgb(105,45,202)] md:dark:drop-shadow-[0_4px_0_rgb(105,45,202)]">
             ALL MEN OF ACTION ARE DREAMERS.
           </h1>
 

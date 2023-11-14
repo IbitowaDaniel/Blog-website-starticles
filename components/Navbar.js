@@ -78,14 +78,14 @@ const Navbar = () => {
               <CustomLink href="/about" title="About" className="ml-4" underLineColor="bg-dark" />
             </nav>
 
-            <Link
+            <a
               href="mailto:danielibitowa@gmail.com"
               className='block !relative flex-shrink-0 ml-6 bg-dark text-light dark:bg-light dark:text-dark hover:dark:bg-dark hover:bg-light hover:text-dark hover:dark:text-light hover:dark:border-light border border-solid border-transparent hover:border-dark lg:hidden p-2 px-4 rounded-md text-lg font-semibold'
             >
               Hire Me
               <span className="absolute inline-block -top-1 -right-1 bg-purple-400 rounded-full w-4 h-4" />
               <span className="absolute -top-2 -right-2 bg-primary rounded-full w-6 h-6 animate-playPulseAnim" />
-            </Link>
+            </a>
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
