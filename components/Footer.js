@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-light dark:bg-dark w-full border-t-2 border-dark dark:border-light text-dark dark:text-light">
       <div className="max-w-7xl w-full mx-auto px-14 md:px-10 xs:px-4 pt-8 pb-6 md:pt-12 flex flex-row md:flex-col gap-y-4 md:text-center justify-between items-center text-base lg:text-sm md:text-base xs:text-sm">
         <div className="md:order-2 font-medium">
-          {new Date().getFullYear()} &copy;DanielIbitowa.
+          {new Date().getFullYear()} &copy; <a href="https://daniel-ibitowa.vercel.app" target="_blank">DanielIbitowa.</a>
         </div>
 
         <div className="font-semibold">

@@ -58,11 +58,9 @@ const Navbar = () => {
       <header className="w-full bg-light dark:bg-dark text-dark dark:text-light">
         <div className="max-w-7xl w-full mx-auto px-14 md:px-10 xs:px-4 py-4 flex justify-between">
 
-          <span className="sr-only">Light Mode Logo</span>
-            <Image src={LogoLight} alt="Logo" className="w-56 xs:w-40 dark:hidden max-h-16" width={160} priority />
-
-          <span className="sr-only">Dark Mode Logo</span>
-            <Image src={LogoDark} alt="Logo" className="hidden dark:block w-56 xs:w-40 max-h-16" width={160} priority />
+          <a href="https://daniel-ibitowa.vercel.app" target="_blank">
+            <Image src={mode === "dark" ? LogoDark : LogoLight} alt="Logo" className="w-56 xs:w-40 max-h-16" width={160} priority />
+          </a>
 
           <div className="flex items-center justify-between">
             <button className="hidden flex-col justify-center items-left lg:flex" onClick={handleClick}>
